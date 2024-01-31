@@ -1,0 +1,138 @@
+.signup-page{
+    background-image: url("https://pixewall.com/wp-content/uploads/2023/08/birthday-background729176198016-scaled.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 40px;
+}
+.signup-select{
+    color: white;
+    animation: LabelOnLoad 1s forwards 0s ease;
+    border-radius: 5px;
+    background-color: transparent;
+    border: transparent;
+	cursor: pointer;
+}
+.signup-option{
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+	cursor: pointer;
+}
+.signup-a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    padding: 0px 40px;
+}
+.signup-a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.signup-a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+.signup-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 15px;
+	background: rgba(0,0,0,.7);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.signup-box h2 {
+	margin: 0 0 20px;
+	padding: 0;
+	color: #FFF;
+	text-align: center;
+}
+
+.signup-box .inputBox {
+	position: relative;
+}
+.signup-box .inputBox input {
+	width: 80%;
+	padding: 2px 0;
+	font-size: 15px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;
+}
+.signup-box .inputBox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px 3px;
+	font-size: 20px;
+	color: #FFF;
+	pointer-events: none;
+	transition: .5s;
+	animation: LabelOnLoad 1s forwards 0s ease;
+}
+@keyframes LabelOnLoad{
+    0%{
+        transform: rotate(0) translateY(-19px);
+        opacity: 0;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}
+.signup-box .inputBox input:focus ~ label, 
+.signup-box .inputBox input:valid ~ label {
+	top: -19px;
+	left:0;
+	color: #ffffff;
+	font-size: 12px;
+}
+.signup-box input[type='submit'] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #FFF;
+	background: #03A9F4;
+	padding: 3px 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	position: relative;
+	width: fit-content;
+	left: 35%;
+}
+.signup-box input[type='submit']:hover {
+	background-color: white;
+    color: #03A9F4;
+}
+@media(max-width: 720px){
+	.box {
+		width: 80%;
+	}
+}

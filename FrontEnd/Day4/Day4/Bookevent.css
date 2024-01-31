@@ -1,0 +1,88 @@
+.bnav{
+    width: 100%;
+}
+.book-container{
+    width: 100%;
+    /* height: 100vh; */
+}
+.book-content{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 65vh;
+    width: 40%;
+    /* padding-top: 30px; */
+    /* border-color: rgb(0, 0, 0); */
+    border-radius: 1%;
+    /* border-style: double; */
+    width: fit-content;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.half1,.half2{
+    gap: 30px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.book-input{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 30px;
+    align-items: center;
+}
+.book-inputbox{
+    width: 140px;
+    border-radius: 3px;
+    text-align: center;
+    border: transparent;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.book-inputbox:placeholder-shown{
+    color: rgb(0, 0, 0)
+}
+.book-label{
+    width: 100px;
+    color: rgb(0, 0, 0);
+}
+.book-page{
+    width: 100%;
+    /* height: 100vh; */
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-image: url("https://t3.ftcdn.net/jpg/06/48/82/52/360_F_648825223_TBcDqLeHKE8uHkhTJq43YFS3opzTF0KJ.jpg");
+    background-size: cover;
+}
+.book-form{
+    padding-top: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.book-button{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: transparent;
+}
+.book-next{
+    padding-bottom: 10px;
+}
+.book-select1{
+    border: transparent;
+    background-color: transparent;
+    display: flex;
+    justify-content: top;
+    text-align: center;
+}

@@ -1,0 +1,225 @@
+.ad-img22{
+    height: 30px;
+    margin-left: 340px;
+    margin-top: 8px;
+    margin-bottom: -5px;
+    cursor: pointer;
+ }
+.ad-img2{
+    height: 34.0vw;
+    width: 28vw;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+.ad-img24{
+    height: 36.0vw;
+    width: 28vw;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+ .ad-evnt-create-box22{
+    margin-left: 333px;
+    margin-top: -450px;
+ }
+ .ad-evnt-create-box-f{
+    margin-left: 373px;
+    margin-top: -470px;
+ }
+.ad-h1121{
+    margin-top: -20px;
+    margin-bottom: -3px;
+    margin-left: 28px;
+}
+.ad-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    align-items: center;
+}  
+.ad-modal-content22 {
+    background-image: url("https://img.freepik.com/free-vector/grunge-watercolor-background-using-pastel-colours_1048-6530.jpg?w=900&t=st=1706432635~exp=1706433235~hmac=e9349cf1f3ce8384182c654256c8eef1913ca4acf8f9219fdb5825d5e10e9536");
+    width: 53%;
+    height: 62%;
+    padding: 20px;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.ad-label{
+    margin-left: 11px;
+    margin-bottom: -17px;
+    margin-top: -3px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.ad-labelp{
+    margin-left: 11px;
+    margin-bottom: -17px;
+    margin-top: 3px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.ad-label2{
+    margin-left: 149px;
+    margin-bottom: -17px;
+    margin-top: -94px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.ad-label1{
+    margin-left: 9px;
+    margin-bottom: -12px;
+    margin-top: -3px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.ad-event-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 20px;
+}
+.ad-event-details{
+    display: flex;
+    gap: 20px;
+}
+.ad-event-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 33px;
+    margin-right: 20px;
+}
+.ad-event-items1{
+    margin-left: -315px;
+    margin-right: 20px;
+    margin-top: 250px;
+}
+.ad-input22{
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.ad-input1{
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.ad-input11{
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    border: 2px solid black;
+    margin-left: 150px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.ad-input2{
+    width: 246px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.ad-textarea{
+    width: 250px;
+    height: 130px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.ad-box1{
+    /* margin-top: 70px; */
+    margin-bottom: -35px;
+    margin-left: 8px;
+    display: flex;
+    font-size:large;
+}
+.ad-box2{
+    height: 17px;
+    width: 17px;
+}
+.ad-box3{
+    margin-top: -3px;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+
+
+
+.ad-inputr1{
+    margin-left: 19px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    width: 19px;
+    
+}
+.ad-inputr2{
+    margin-left: 19px;
+    height: 20px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    gap:-10px;
+    width: 19px;
+    
+}
+.ad-labelr{
+    display: flex;
+    margin-top: -60px;
+    margin-left: 45px;
+    font-size: 17px;
+    
+}
+
+.add-but11{
+    margin-top: 65px;
+    margin-left: -350px;
+}
+.ad-boxfood{
+    margin-top: 280px;
+    margin-bottom: -35px;
+    margin-left: -305px;
+    display: flex;
+    font-size:large;
+}

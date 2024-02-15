@@ -1,0 +1,276 @@
+.ad-search-form{
+    display: flex;
+    margin-top: -35px;
+    padding-left: 568px;
+}
+.ad-add{
+    margin-top: 40px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(1, 122, 17);
+
+}
+.ad-add:hover{
+    color: rgb(1, 70, 10);
+}
+.ad-poih{
+    padding-left: 40px;
+    margin-top: -41px;
+}
+.ad-pointer{
+    cursor: pointer;
+}
+.ad-h1{
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.gallery-wrapper1{
+    width: 22vw;
+    height: 50vh;
+  }
+
+  .be-grid1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+
+}
+
+.pb-51{
+    text-decoration: none;
+    margin-bottom: 45px;
+  }
+  .grid-item1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 450px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  /* Hover effect for the grid items */
+  .grid-item1:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for the image inside each grid item */
+  .grid-item1 img {
+    width: 100%;
+    height: 52%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+  }
+  
+
+  /* Style for the text content inside each grid item */
+  .grid-item1 .h4 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the description inside each grid item */
+  .grid-item1 .font-italic {
+    color: #666;
+    display: flex;
+    /* font-style: italic; */
+    margin-left: 10px;
+    /* font-weight: 500; */
+    padding: 1px;
+  }
+  
+  
+  /* Style for the button inside each grid item */
+  .grid-item1 .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .grid-item1 .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .ab-up{
+    background-color: rgb(0, 200, 255);
+  height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .ab-del{
+    background-color: rgba(255, 0, 0, 0.776);
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 35px;
+    cursor: pointer;
+
+  }
+  .be-overall{
+    background-color:bisque;
+    min-height:100vh; 
+}
+
+.be-h1{
+    padding-top: 115px;
+    padding-left: 70px;
+
+}
+.pb-5{
+  text-decoration: none;
+  cursor: pointer;
+}
+.be-none{
+  margin-top:65px;
+  text-align: center;
+  margin-bottom: -100px;
+
+}
+.be-noevents{
+  border-radius: 10px;
+  height: 30%;
+  width:25%;
+  margin-bottom: 10px;
+}
+
+.ce-search-form {
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    padding-left: 1015px;
+  }
+  
+  .ce-search-input {
+    padding: 10px 15px;
+    margin-right: 8px;
+    text-align:start;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+  }
+  .ce-search-input::placeholder{
+    font-family:cursive;
+  }
+  
+  .ce-search-button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+.be-grid{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* margin-top: 40px; */
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+
+}
+  
+  /* Style for the gallery wrapper */
+  .gallery-wrapper {
+    width: 21vw;
+    height: 50vh;
+  }
+  
+  /* Style for the grid sizer */
+  .grid-sizer {
+    width: 100%;
+  }
+  
+  
+  /* Style for each grid item */
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 435px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+  }
+  
+  /* Hover effect for the grid items */
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for the image inside each grid item */
+  .grid-item img {
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+  }
+  
+
+  /* Style for the text content inside each grid item */
+  .grid-item .h4 {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the description inside each grid item */
+  .grid-item .font-italic {
+    color: #666;
+    display: flex;
+    /* font-style: italic; */
+    margin-left: 10px;
+    /* font-weight: 500; */
+    padding: 1px;
+  }
+  
+  
+  /* Style for the button inside each grid item */
+  .grid-item .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  .grid-item .btn:hover {
+    background-color: #0056b3;
+  }

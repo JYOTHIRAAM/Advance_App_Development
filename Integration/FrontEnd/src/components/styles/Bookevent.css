@@ -1,0 +1,242 @@
+.bb-eb-img{
+    height: 30px;
+    margin-left: 1001px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.bb-eb-h1{
+    margin-top: -28px;
+    margin-left: 27px;
+}
+.bb-modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    align-items: center;
+}  
+.bb-modal-content {
+    background-image: url("https://wallpapersmug.com/download/1920x1080/4d7d03/light-colors-geometric-pattern-abstract.jpg");
+    width: 80%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.bb-eb-frm1{
+    margin-top: -490px;
+    margin-left: 350px;
+    display:flex;
+    flex-direction: column;
+}
+.bb-eb-label{
+    margin-left: 11px;
+    margin-bottom: -17px;
+    margin-top: -3px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.bb-eb-label2{
+    margin-left: 149px;
+    margin-bottom: -17px;
+    margin-top: -93.5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.bb-eb-label1{
+    margin-left: 9px;
+    margin-bottom: -12px;
+    margin-top: -3px;
+    font-weight: 500;
+    font-size: 17px;
+}
+.bb-event-box{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 20px 20px;
+}
+.bb-event-details{
+    display: flex;
+    gap: 20px;
+}
+.bb-event-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.bb-eb-input{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.bb-eb-input1{
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.bb-eb-input11{
+    width: 80px;
+    height: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    border: 2px solid black;
+    margin-left: 150px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.bb-eb-input2{
+    width: 246px;
+    height: 35px;
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+.bb-eb-textarea{
+    width: 250px;
+    height: 130px;
+    padding: 5px;
+    padding-left: 15px;
+    border: 2px solid black;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgba(249, 247, 247, 0.995);
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.bb-eb-box1{
+    margin-top: 50px;
+    margin-bottom: -15px;
+    margin-left: 8px;
+    display: flex;
+    font-size:large;
+}
+.bb-eb-box2{
+    height: 17px;
+    width: 17px;
+}
+.bb-eb-box3{
+    margin-top: -3px;
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+
+
+
+  .bb-wrapper {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .bb-custom-button {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 150px;
+    height: 45px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border: 3px solid #8C82FC;
+    background: #fff;
+    color: #756af4;
+    border-radius: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+  }
+  
+  .bb-custom-button:hover {
+    background: #7166ee;
+    color: #fff;
+  }
+  
+  .bb-custom-button span {
+    opacity: 1;
+    visibility: visible;
+    /* transition: all .35s; */
+  }
+  
+  .bb-success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s;
+  }
+  
+  .bb-success svg {
+    width: 25px;
+    height: 25px;
+    fill: yellowgreen;
+    transform-origin: 50% 50%;
+    transform: translateY(-50%) rotate(0deg) scale(0);
+    transition: all .35s;
+    }
+  
+  .bb-custom-button.is_active {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .bb-custom-button.is_active .success {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .bb-custom-button.is_active .success svg {
+    margin-top: 50%;
+    transform: translateY(-50%) rotate(720deg) scale(1);
+  }
+  
+  .bb-custom-button.is_active span {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+
+  
